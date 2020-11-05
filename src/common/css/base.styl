@@ -1,0 +1,116 @@
+.clearfix {
+  display: inline-block;
+
+  &:after {
+    display: block;
+    content: '.';
+    height: 0;
+    line-height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+*:not(input, textarea) {
+  -webkit-user-select: none !important;
+}
+
+input:disabled, textarea:diabled {
+  opacity: 1;
+  -webkit-opacity: 1;
+  -webkit-text-fill-color: #000;
+}
+
+clan = #409EFF; // 蓝色
+clantop = #75b7f1; // 顶部标题蓝色?
+chong = #fe726f; // 红色
+chunag = #F4A529; // 黄色
+clv = #09bb07; // 绿色
+chei = #333; // 表单左-灰
+chui = #808080; // 表单右-灰
+chui2 = #a9a9a9; // 表单disabled字体色
+chuixian = #f2f2f2; // 表单-灰色线
+chuibg = #F0F0F0; // 表格背景
+chei1 = #000; // 大标题
+chui1 = #888; // 灰色备注
+.t_center {
+  text-align: center;
+}
+//背景色
+$e_primary_color = #409EFF;
+$e_blue_color = #108EE9;
+$e_yellow_color = #FEF1E7;
+$e_huise_color = #F6F6F6;
+$e_F0F0F0_color = #F0F0F0;
+$e_999999_color = #999999;
+$e_ECF5FF_color = #ECF5FF;
+$e-FEF1F1-color = #FEF1F1;
+//线条颜色
+$b_blure_color = #108EE9;
+$b_huise_color = #EBEBEB;
+$b_f6f6f6_color = #F6F6F6;
+$b_D9D9D9_color = #D9D9D9;
+$b_f8f8f8_color = #f8f8f8;
+$b_F0F0F0_color = #F0F0F0;
+$b-B3D8FF-color = #B3D8FF;
+$b-FDDDDD-color = #FDDDDD;
+//字体颜色
+$f_org_color = #F9871B;
+$f_blue_color = #109CEE;
+$f_ABAB_color = #ABABAB;
+$f_000000_color = #000000;
+$f_515151_color = #515151;
+$f_999999_color = #999999;
+$f-409EFF-color = #409EFF;
+$f-F56C6C-color = #F56C6C;
+$f-53A0F9-color = #53A0F9;
+$f_09BB07_color = #09BB07;
+$f_57A9E8_color = #57A9E8;
+$f_FE726F_color = #FE726F;
+
+.common-btn {
+  width: 300px;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 15px;
+  background: #409EFF;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  // font-weight: bold;
+}
+.common_list {
+  background: #fff;
+
+  li {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  li:last-child {
+    border-bottom: 1px solid $b_huise_color;
+  }
+
+  label {
+		width:100px;
+	}
+  .email {
+    flex:1;
+    padding-right:8px;
+  }
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+.mt100 {
+  margin-top: 100px;
+}
